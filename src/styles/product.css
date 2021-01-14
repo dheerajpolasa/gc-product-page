@@ -1,0 +1,10 @@
+.product__container {
+    display: flex;
+    margin: 0% 15%;
+}
+
+@media only screen and (max-width: 1290px) {
+    .product__container {
+        flex-direction: column;
+    }
+}
