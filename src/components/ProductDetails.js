@@ -62,7 +62,7 @@ function ProductDetails() {
     };
 
     const handleAddToCart = () => {
-        let flag = color === '' && size === '' && qty === '';
+        let flag = color === '' || size === '' || qty === '';
         console.log(flag);
         if (flag) {
             toast.notify(
